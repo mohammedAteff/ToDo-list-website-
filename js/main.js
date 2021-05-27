@@ -12,7 +12,7 @@ let showNoTasks = () => {
 let addTask = () => {
     // notask.classList.toggle('none')
     let task = input.value;
-    if (task.length == 0 || task.length < 2 || task.length > 10) {
+    if (task.length == 0 || task.length < 2 || task.length > 100) {
         alert("you must enter a valid data")
         notask.classList.remove('none');
         

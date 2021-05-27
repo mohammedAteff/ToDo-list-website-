@@ -42,11 +42,7 @@ addbtn.addEventListener('click', addTask);
 let deletetask = (e) => {
     if (e.target.classList.contains('delete')) {
         e.target.parentElement.remove();
-<<<<<<< HEAD
         showNoTasks();
-=======
-        e.target.childNodes.toggle(showNoTasks);
->>>>>>> 7affcaf5c6a282ff74d385dcb6e7e6b502969276
     }
 
 }

@@ -35,11 +35,7 @@ h1 {
     background-color: darkgray;
     color: white;
     border-style: none;
-<<<<<<< HEAD
     text-decoration: line-through;
-=======
-    text-decoration: line-through;    
->>>>>>> 7affcaf5c6a282ff74d385dcb6e7e6b502969276
 }
 
 
@@ -60,7 +56,6 @@ textarea {
 }
 @media(max-width : 450px){
 
-<<<<<<< HEAD
     textarea{
         width: 220px;
         height: 130px;
@@ -68,8 +63,7 @@ textarea {
     }
     h1{
         font-size: 32px;
+        color: white;
     }
 }
-=======
-}
->>>>>>> 7affcaf5c6a282ff74d385dcb6e7e6b502969276
+

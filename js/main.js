@@ -14,9 +14,10 @@ let addTask = () => {
     let task = input.value;
     if (task.length == 0 || task.length < 2 || task.length > 100) {
         alert("you must enter a valid data")
-        notask.classList.remove('none');
+        // notask.classList.remove('none');
         
-    } else {
+    }
+     else {
         notask.classList.add('none');
         tasks.innerHTML += `<div class ='task alert alert-light'> ${task}
         <button style="width: 30px;" class='delete float-right  btn btn-danger'> X </button>

@@ -7,7 +7,7 @@ body {
     /* background-color: rgb(216, 84, 84); */
     background-image: url(../images/photo-1547480053-7d174f67b557.jfif);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 h1 {

@@ -65,5 +65,9 @@ textarea {
         font-size: 32px;
         color: white;
     }
+    BODY{
+        background-size: auto;
+    }
+    
 }
 
